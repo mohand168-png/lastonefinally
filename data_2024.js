@@ -1,106 +1,895 @@
 window.QUIZ_2024 = {
-  title: "Prosthodontics Final — 26 May 2024",
-  note: "MCQ answers and model written answers below are reasoned from standard complete-denture prosthodontics. Treat the MCQ key as a strong study guide, but verify against your lecture notes.",
-  mcqs: [
-    {q:"The use of silicone based soft liner in the management of a patient with a single maxillary complete denture:",o:["The material should be changed every 3–4 days due to leach out of plasticizers","It adheres chemically to the acrylic denture","It shows less porosity than acrylic resin","It needs adhesive to bind to the acrylic denture"],a:3,e:"Silicone soft liners are not chemically bonded to acrylic and require a bonding adhesive. (Plasticizer leaching applies to acrylic-based tissue conditioners.)"},
-    {q:"Subtractive manufacturing involves:",o:["Milling of preformed blanks","Digital light processing","Direct laser polymerization of layered liquid resins","Material jetting"],a:0,e:"Subtractive = milling away material from a preformed (prepolymerized) blank. The others are additive."},
-    {q:"Which is the phonetic guideline for checking proper position of anterior teeth:",o:["Bilabial sounds","Labiolingual sounds","Labiodental sounds","Dentomaxillary sounds"],a:2,e:"Labiodental sounds (F, V) check incisal edge position of upper anteriors against the lower lip."},
-    {q:"Localized tissue irritation can be caused by:",o:["Bruxism","Xerostomia","Retained bony spicule","Bad oral hygiene"],a:2,e:"A retained sharp bony spicule produces a focal, localized sore spot; the others cause generalized problems."},
-    {q:"Optimum criteria for the denture bearing area:",o:["Non-keratinized","Keratinized","Partially keratinized","Specialized mucosa"],a:1,e:"Keratinized, firmly attached mucosa best withstands masticatory load."},
-    {q:"Healing period after posterior teeth extraction during immediate denture construction ranges from:",o:["6–8 weeks","1.5–2 months","3–6 months","6–12 months","After 1 year at least"],a:0,e:"Posterior sockets are allowed ~6–8 weeks to heal before the anterior extraction/insertion appointment."},
-    {q:"Fibrous hyperplasia occurring around the border of a denture is called:",o:["Epulis fissuratum","Denture stomatitis","Denture fibrosis","Allergic stomatitis"],a:0,e:"Epulis fissuratum = hyperplastic folds at an overextended denture flange border."},
-    {q:"What should be done when a wrong vertical dimension is detected during the try-in stage?",o:["All anterior teeth should be removed","All posterior teeth should be removed","All lower teeth should be removed","No teeth should be removed"],a:3,e:"VD is re-established by adjusting/re-recording the rims; the set teeth themselves need not be removed to correct VD. (Verify with your notes — some protocols reset posteriors.)"},
-    {q:"Concepts of occlusion are categorized as balanced and non-balanced according to:",o:["Presence/absence of occlusal contact in centric relation","Presence/absence of anterior teeth contact in centric position","Presence/absence of occlusal contact during eccentric movements","Inclination of condylar and incisal guidance"],a:2,e:"Balanced occlusion is defined by simultaneous bilateral contacts during eccentric (excursive) movements."},
-    {q:"Clinically, the posterior vibrating line represents:",o:["Hard palate and soft palate junction","Junction of slight and marked movement of the soft palate","Most marked movement of the soft palate","Cupid's-bow shaped line"],a:1,e:"The posterior vibrating line lies at the junction between the slightly-moving and markedly-moving portions of the soft palate. (Anterior vibrating line ≈ hard/soft palate junction.)"},
-    {q:"Overeruption of natural mandibular anterior teeth opposing an upper complete denture will cause:",o:["Combination syndrome","Flat maxillary ridge","Decreased forces on the anterior maxilla","Increased stability of the lower denture"],a:0,e:"This anterior natural-vs-denture relationship is the classic trigger of combination syndrome."},
-    {q:"How to improve the tearing strength of alginate impression material?",o:["Increase water to give a thick mix","Select a tray that gives sufficient bulk of material","Store the impression in humid atmosphere","Immediate pouring of the impression"],a:1,e:"Adequate bulk (3–4 mm) from a properly spaced tray resists tearing; thin sections tear."},
-    {q:"Which is true concerning postural rest position?",o:["Is a border position","Is a precise position","Is influenced by head position","Is recorded by saying the letter F"],a:2,e:"Postural (physiologic) rest is a learned, variable position influenced by head posture."},
-    {q:"The side towards which the mandible moves is called:",o:["Balancing side","Working side","Protrusive side","Eccentric side"],a:1,e:"The side toward which the mandible moves is the working (laterotrusive) side."},
-    {q:"Occlusion blocks are added to the special tray used in:",o:["Double impression technique","Mucostatic impression technique","Mucocompressive impression technique","Selective impression technique"],a:2,e:"Closed-mouth/mucocompressive (functional) impressions use occlusion rims on the special tray so the patient applies functional load."},
-    {q:"Which is a method for recording vertical dimension of occlusion directly?",o:["Patient tactile sensation","Swallowing activity","Previously mounted casts","Facial expression and esthetics"],a:2,e:"Pre-extraction (previously mounted) records give a direct, measurable VDO; the others are indirect/physiologic."},
-    {q:"Which can be considered a contraindication for the graphic tracing method?",o:["Limited inter-arch space","Microglossia","Female patients","Young patients"],a:0,e:"Limited inter-arch space leaves no room for the central-bearing tracing device."},
-    {q:"Which attachment allows easy denture insertion and removal?",o:["Bar attachment","Ball attachment","Magnet","Locator"],a:2,e:"Magnetic attachments have no mechanical undercut to overcome, giving the easiest insertion/removal (at the cost of retention)."},
-    {q:"Occlusal pivots are done at the occlusal surface of:",o:["Lower second premolar and first molar","Lower premolars","Lower second molars","All lower posterior teeth"],a:2,e:"Pivots are placed over the lower second molars (most posterior) to aid denture seating."},
-    {q:"Distobuccal flange of the mandibular impression is influenced by:",o:["Masseter muscle","Pterygomandibular raphe","Buccal shelf area","Ascending ramus"],a:0,e:"The masseter (via the buccinator at the masseteric notch) shapes the distobuccal flange."},
-    {q:"The available bone length at the implant site is defined as:",o:["Crest of the ridge to the opposing landmark","Mesiodistal dimension of available bone","Bucco-lingual dimension of available bone","Crest of the ridge to the occlusal plane"],a:0,e:"Available bone height/length is measured from the crest to the opposing anatomic landmark."},
-    {q:"Retentive qualities of the posterior palatal seal are checked by applying a displacing force:",o:["Forward and upward on anterior teeth","Downward on anterior teeth","Lateral on posterior teeth","Downward on posterior teeth"],a:1,e:"Pressing down on the anterior teeth tests whether the posterior seal holds the denture up."},
-    {q:"Constructing dentures for patients with a large tongue — the setting problem is managed by:",o:["Setting anterior teeth slightly lingual","High occlusal plane","Narrow posterior teeth bucco-lingually","Grinding the lower buccal cusps"],a:2,e:"Narrowing posterior teeth bucco-lingually creates tongue space and reduces interference."},
-    {q:"'Long centric' is an occlusal design that provides:",o:["Freedom of occlusion in centric position","Freedom from centric to any eccentric position","Freedom of occlusion in lateral movement","Freedom of occlusion in protrusive movement"],a:0,e:"Long centric = a small anteroposterior freedom of contact around centric."},
-    {q:"When the lower denture border is overextended in the posterior region, the patient commonly complains of:",o:["Improper retention","Difficulty in swallowing","Difficulty in speech","Excess salivation"],a:1,e:"Posterior (retromylohyoid/distolingual) overextension impinges the throat, causing difficulty swallowing / sore throat."},
-    {q:"Which muscle relates to distal extension of the impression in the retromylohyoid fossa?",o:["Masseter muscle","Lateral pterygoid muscle","Superior constrictor muscle","Mylohyoid muscle"],a:2,e:"The superior constrictor limits the distolingual/retromylohyoid extension."},
-    {q:"Which is part of the prosthetic management of a patient with a flat ridge?",o:["Setting teeth buccal to the crest","Making an impression using selective pressure technique","Vestibuloplasty for better flange extension","Use of porcelain teeth"],a:1,e:"A controlled (selective/minimal) pressure impression is used; vestibuloplasty is surgical (pre-prosthetic), not prosthetic. (Verify — flat ridges often favor a mucostatic/minimal-pressure technique.)"},
-    {q:"Which letter's pronunciation is affected by a change in the palatal contour of the maxillary denture?",o:["S","F","M","V"],a:0,e:"'S' (sibilant) sounds depend on the anterior palatal contour and tongue–palate space."},
-    {q:"Hyperplastic tissue over the hard palate is known as:",o:["Epulis fissuratum","Fordyce granules","Flabby ridge","Papillary hyperplasia"],a:3,e:"Inflammatory papillary hyperplasia is the palatal cobblestone overgrowth seen under ill-fitting dentures."},
-    {q:"Patients accepting their oral situation are:",o:["Philosophic","Exacting","Indifferent","Skeptical"],a:0,e:"Philosophic patients are rational and accept their situation — the best prognosis (House classification)."},
-    {q:"A new denture wearer suffering from lisping — what can be adjusted?",o:["Set anterior teeth more palatally","Set anterior teeth over the crest","Reduce thickness of the denture at the palatal portion","Increase thickness of the denture at the palatal portion"],a:2,e:"Lisping from a bulky anterior palate is corrected by thinning/recontouring the palatal acrylic. (Verify direction with your notes.)"},
-    {q:"Records accepted by a semi-adjustable articulator:",o:["Centric occluding relation only","Centric + protrusive","Centric + protrusive + lateral","Face-bow record only"],a:2,e:"Semi-adjustable articulators accept centric, protrusive and lateral (plus face-bow) records."},
-    {q:"Which attachment provides better stress distribution?",o:["Bar attachment","Ball attachment","Magnet","Locator"],a:0,e:"A bar splints the abutments and distributes stress better than individual stud/ball/magnet units."},
-    {q:"Device used to measure the distance between the pupil and the rima oris as a VD guideline:",o:["Hanau","Willis","Winkler","Balkwell"],a:1,e:"The Willis gauge measures pupil-to-rima-oris (and subnasion-to-menton)."},
-    {q:"Best option for management of a unilateral posterior undercut in an old patient:",o:["Surgery","Use a path of insertion","Use soft liners with short distobuccal flange","Block out the undercut"],a:1,e:"In the elderly, avoid surgery; a planned path of insertion lets you use one undercut for retention."},
-    {q:"Hanau's formula is:",o:["L = H/8 + 12","L = H/12 + 8","H = H/8 + 12","H = L/12 + 8"],a:0,e:"Lateral condylar guidance L = H/8 + 12 (H = horizontal/protrusive condylar inclination)."},
-    {q:"Lower complete denture opposing upper natural teeth is acceptable in the case of:",o:["Class II jaw relation","Cleft palate","Limited denture bearing area","Lower single denture is always avoided"],a:0,e:"This least-favorable single-denture combination is least problematic with a Class II (retruded mandible) relation. (Verify — single lower dentures opposing natural teeth are generally discouraged.)"},
-    {q:"During gothic arch tracing, the apex indicates:",o:["Centric occlusion","Horizontal jaw relation","Centric relation","Physiologic rest position"],a:2,e:"The apex of the arrow-point (gothic arch) tracing marks the most retruded position = centric relation."},
-    {q:"Main function of border molding:",o:["To trim the muscle","To shape the polished surface of the denture","To exercise muscles for better function","To shape the tray borders to record the sulcus contour"],a:3,e:"Border molding shapes the tray periphery to the functional depth/width of the sulcus for a peripheral seal."},
-    {q:"Common finding for a complete-denture wearer with a V-shaped palatal vault:",o:["Decreased denture stability","Decreased denture retention","Increased denture retention","Increased posterior palatal seal area"],a:1,e:"A V-shaped (high narrow) vault gives a poor peripheral seal → decreased retention."},
-    {q:"Clinical feature associated with skeletal Class III:",o:["Gentle mentolabial sulcus curvature","Prominent lower lip","Straight mentolabial sulcus","Increased range of mandibular movement"],a:1,e:"Class III (prognathic) shows a prominent lower lip/chin."},
-    {q:"In which technique is the special tray constructed over a spacer?",o:["Mucocompressive","Mucostatic","Selective pressure","Butterfly"],a:1,e:"A spacer creates relief for an even thin wash → minimal-pressure (mucostatic) recording. (Selective pressure also uses selective relief; mucostatic uses uniform spacer.)"},
-    {q:"Which soft palate type is usually associated with a V-shaped palatal vault?",o:["Class I","Class II","Class III","Class IV"],a:2,e:"A steep (V-shaped) vault is associated with a Class III soft palate (sharp, abrupt drop) → narrow seal."},
-    {q:"In a diabetic patient we can expect:",o:["Decrease in salivary flow","Increased denture retention","Increased salivary flow","Decreased rate of bone resorption"],a:0,e:"Diabetics tend to have reduced/altered salivary flow (xerostomia) and delayed healing."},
-    {q:"In management of a patient with a flat lower ridge:",o:["Use of acrylic teeth is recommended","Use of anatomical teeth is recommended","Lower occlusal plane kept as far as possible from the ridge","Use of intra-oral tracers is recommended"],a:0,e:"Flat ridges favor non-anatomic (cuspless) acrylic teeth, a low occlusal plane, and avoid intra-oral tracers."},
-    {q:"A disadvantage of using a non-adjustable articulator:",o:["Time consuming to transfer records","Extra cost","Reproduces only one contact position","Limited time to adjust restoration intraorally"],a:2,e:"A simple-hinge (non-adjustable) instrument reproduces only one position → more intra-oral adjustment is needed."},
-    {q:"Which could cause impression distortion?",o:["Registration of inflamed tissue","Tray border 3–4 mm shorter than the vestibule","Impression stored in damp paper towel","Modification of the tray"],a:0,e:"Recording compressed/inflamed tissue distorts the functional form of the impression."},
-    {q:"According to design, root-form implants are either:",o:["Cylinder or screw shaped","Conventional, medi, mini","Metallic or non-metallic","One-stage or two-stage surgical"],a:0,e:"Root-form implants are classified by design as cylinder (press-fit) or screw (threaded)."},
-    {q:"Which is correct about complete dentures of patients with increased inter-arch distance?",o:["Have decreased stability","Have increased stability","Teeth set next to the maxillary ridge","Decreased leverage action on teeth"],a:0,e:"A large inter-arch space lengthens the lever arm → decreased stability and more tipping force."},
-    {q:"The occlusal plane of upper posterior teeth should be parallel to the:",o:["Ala-tragus line","Canthus–tragus line","Interpupillary line","Center of the arch"],a:0,e:"Posterior occlusal plane parallels Camper's (ala–tragus) line; the anterior plane parallels the interpupillary line."},
-    {q:"A problem related to a retrognathic mandible:",o:["Center of the maxillary arch opposes the anterior mandible","Center of the mandibular arch opposes the anterior maxilla","Cross bite posteriorly","Decreased range of antero-posterior mandibular movement"],a:1,e:"With a retruded (Class II) mandible the mandibular arch centre sits behind, opposing the anterior maxilla. (Verify.)"},
-    {q:"Which record is accepted by ALL articulators?",o:["Centric occluding relation record","Protrusive record","Face-bow record","Lateral record"],a:0,e:"Even the simplest hinge articulator accepts the centric relation record."},
-    {q:"Selection of occlusal form is affected by:",o:["Condition of the ridge and maxillo-mandibular relation","Tongue side and position","Arch size and form","Palatal vault form"],a:0,e:"Ridge condition + jaw relationship (and condylar guidance) drive cusp-form selection."},
-    {q:"A contraindication for a tooth-supported overdenture:",o:["Mobile few remaining teeth","Young patients","Abnormal jaw sizes","Poor oral hygiene"],a:3,e:"Overdentures demand excellent plaque control; poor oral hygiene contraindicates them (caries/perio of abutments)."},
-    {q:"Preferred jaw-relation recording technique for a patient with a flat ridge:",o:["Check-bite technique","Use of extra-oral tracers","Use of intra-oral tracers","Use of arrow-point technique"],a:1,e:"Intra-oral central-bearing tracers are contraindicated on flat ridges; an extra-oral tracer is preferred. (Verify.)"},
-    {q:"An advantage of the immediate denture:",o:["It allows anterior teeth try-in","Can be done for all patients","Needs limited occlusal adjustment at delivery","Patient adapts rapidly to it"],a:3,e:"Because the patient is never edentulous, muscles/tissues adapt rapidly; anterior try-in is NOT possible."},
-    {q:"Feature expected in geriatric patients:",o:["Decreased inter-arch space","Mental foramen on the buccal surface of the mandible","Muscles diminish in bulk","Retrognathic jaw appearance"],a:2,e:"Aging brings muscle atrophy (reduced bulk/tonicity); ridge resorption tends to bring the mental foramen toward the crest and a prognathic look."},
-    {q:"In a fully-adjustable articulator, the LEFT lateral condylar guidance is adjusted by:",o:["Left lateral record","Protrusive record","Right lateral record","Hanau's formula"],a:2,e:"The non-working (left) condyle path is recorded during a RIGHT lateral movement."},
-    {q:"Disharmony between centric relation and centric occlusion may result from:",o:["Use of a permanent denture base","Use of an easily displaceable registration material","Minimum closing pressure during recording","Unstable occlusal blocks"],a:1,e:"A registration material that displaces under load yields an inaccurate CR record → CR/CO discrepancy."},
-    {q:"What should be done first to begin a CAD/CAM operation?",o:["Import STL of acquired data to the CAM component","Digitizing of the physical data","Import the STL/prosthetic design to the CAD software","Designing the components"],a:1,e:"The workflow starts with data acquisition — digitization/scanning of the physical situation."},
-    {q:"Anatomical landmark that helps position the posterior palatal seal:",o:["Median palatine raphe","Fovea palatina","Incisive papilla","Retromolar pad"],a:1,e:"The fovea palatinae lie just posterior to the vibrating line and guide PPS placement."},
-    {q:"Most accurate, reproducible relationship for recording jaw relations:",o:["Physiologic rest position","Centric occlusion","Centric relation","Centric occlusion and centric relation"],a:2,e:"Centric relation is bone-to-bone, reproducible and used as the reference for edentulous records."},
-    {q:"A characteristic of bar attachment units:",o:["Rigid fixation for the attached prosthesis","Being tissue borne","Allowing the prosthesis to transmit force to the ridge","Permitting rotational movement of the prosthesis"],a:0,e:"A rigid bar (e.g., Dolder bar—rigid type) splints implants/abutments and fixes the prosthesis."},
-    {q:"Stock trays for alginate impressions of edentulous patients should be:",o:["Made of plastic","Non-perforated","With long flanges","With rounded floors"],a:3,e:"Edentulous stock trays have rounded floors to fit the ridge form."},
-    {q:"Balance with non-anatomic teeth can be accomplished by:",o:["Arranging molars on a compensating curve","Balancing ramp distal to the upper second molar","Balancing ramp distal to the lower second molar","Increasing condylar guidance steepness"],a:2,e:"With cuspless teeth, a balancing ramp placed distal to the lower second molar provides eccentric balance."},
-    {q:"Min interarch space with weak premolar abutments — recommended overdenture abutment:",o:["Dome-shaped abutment with amalgam plug","Vital abutment with simple reduction","Endodontically treated abutment with bar attachment","Dome-shaped abutment with stud attachment"],a:0,e:"Minimal space → no room for an attachment, so a short non-coping dome with amalgam restoration is used."},
-    {q:"Aim of an ideal complete-denture occlusal scheme:",o:["Optimizing denture support","Improving denture retention","Controlling functional stresses & promoting stability","Duplicating natural-teeth occlusion"],a:2,e:"The occlusal scheme's goal is to control/distribute functional stress and preserve stability."},
-    {q:"Sequence of steps for conventional immediate denture construction:",o:["Diagnosis, impression, extraction of posterior teeth, jaw relation","Diagnosis, extraction of posterior teeth, impression, jaw relation","Diagnosis, impression, jaw relation, extraction of posterior teeth","Diagnosis, extraction of all teeth, impression, jaw relation"],a:1,e:"Posteriors are extracted and healed first, THEN impression and jaw relation, with anteriors removed at insertion."},
-    {q:"Characteristic of a transitional immediate complete denture:",o:["Inserted immediately following complete clearance","Temporary, replaced after healing is complete","A temporary partial denture to which artificial teeth are added","Placed after extraction of the remaining six anterior teeth"],a:2,e:"A transitional immediate denture begins as a partial denture, with teeth added as remaining teeth are lost."},
-    {q:"A patient with a mandibular single edentulous ridge will usually suffer from:",o:["Increased vertical dimension","Broken lower denture","Unfavorable lower denture","Excessive lip support"],a:2,e:"A lower single CD opposing natural upper teeth is the least favorable / least stable situation."},
-    {q:"Which technique uses impression plaster as the impression material?",o:["Mucocompressive technique","Mucostatic technique","Selective pressure technique","High pressure impression technique"],a:1,e:"Impression plaster is a rigid, non-displacing material → mucostatic (minimal pressure) technique."},
-    {q:"Best radiographic method for evaluating available bone for implant planning:",o:["Periapical radiograph","Panoramic radiograph","CBCT","Occlusal radiograph"],a:2,e:"CBCT gives 3-D bone height/width with minimal distortion — the standard for implant planning."},
-    {q:"Cause of clicking during functional movement in a new complete-denture wearer:",o:["Displacement of the mandibular denture","Insufficient inter-occlusal distance","Too much retention in the maxillary denture","Rebasing the old denture"],a:1,e:"Too little freeway space (high VDO) makes the teeth click together during speech/function."},
-    {q:"Cast metal denture base is indicated in patients having:",o:["Flat palatal vault","V-shaped palatal vault","Knife-edged ridge","Retrognathic ridge relationship"],a:0,e:"A thin cast-metal base improves retention/strength and adds tissue contact area for a flat vault."}
-  ],
-  written: [
-    {sec:"Section 1 — Problem solving",
-     intro:"Completely edentulous patient; maxillary denture unstable; same denture 10 years without maintenance; localized flabby tissue in the maxillary arch.",
-     items:[
-       {q:"Q1.1 — Causes of the localized flabby tissue:",a:"• Long-term unserviced denture causing chronic trauma. • Excessive/unbalanced occlusal load concentrated on the anterior maxilla. • Combination syndrome pattern (natural lower anteriors opposing an upper CD → anterior maxillary resorption + flabby tissue). • Continuous ridge resorption under an ill-fitting base. • Poorly controlled systemic factors (e.g., diabetes) accelerating bone loss and replacement by fibrous tissue."},
-       {q:"Q1.2 — Options for tissue recovery before a new denture:",a:"• Rest the tissues — leave the denture out (24–72 h) where feasible. • Tissue conditioning with a soft liner, replaced every few days. • Correct/adjust the old denture (relieve overload, reduce VDO if excessive). • Improve plaque control and treat any denture stomatitis. • Surgical excision of the flabby tissue only if it is large and non-recoverable."},
-       {q:"Q1.3 — Impression technique when flabby tissue persists:",a:"Use a minimal-pressure (mucostatic) technique that records the flabby tissue undisplaced while still seating the denture on the firm tissue. A common method is the 'window' (selective/double) technique: a special tray relieved over the flabby area; record the firm tissue with a normal wash, then capture the flabby area through a window using a free-flowing material (e.g., plaster or light-body) without compression. Goal: even, minimal load so the flabby tissue is not displaced and the denture stays stable."},
-       {q:"Q1.4 — Recommended method for recording centric relation:",a:"Use a pressure-free graphic method — extra-oral or intra-oral central-bearing (gothic-arch / arrow-point) tracing with stable bases, because squash-bite/check-bite methods displace the flabby anterior tissue and give an unreliable record."},
-       {q:"Q1.5 — Recommended occlusal form & arrangement of posterior teeth:",a:"Non-anatomic (cuspless / 0°) posterior teeth set on a flat or shallow plane, arranged to give bilateral balanced occlusion (via a balancing ramp/compensating curve) with the load directed to the firm posterior ridge and reduced/eliminated from the flabby anterior segment. A narrow bucco-lingual occlusal table reduces tipping force."}
-     ]},
-    {sec:"Section 2 — Give the reason why",
-     items:[
-       {q:"Q1 — Occlusal balance has many advantages in CD construction.",a:"Because simultaneous bilateral contacts in centric and eccentric positions distribute load evenly, prevent tipping/rocking, improve stability and retention during function, reduce trauma to the bearing tissues, and slow ridge resorption."},
-       {q:"Q2 — A patient suffers from generalized tissue irritation directly after denture insertion.",a:"Because generalized (as opposed to localized) soreness right after insertion is usually due to an occlusal error / wrong jaw relation or excessive VDO, an over-pressured impression, or processing errors causing uniform overload — or an acrylic (monomer) reaction. A localized sore spot, by contrast, points to a focal cause (bony spicule, frenum, overextension)."},
-       {q:"Q3 — A Class I soft palate classification indicates a favorable denture prognosis.",a:"Because a Class I soft palate runs nearly horizontal with a gentle, gradual turn, giving a broad band of movable–immovable tissue → a wide posterior palatal seal area, better seal and retention. (Class III/V-shaped vault gives a narrow seal and poor retention.)"},
-       {q:"Q4 — Cheek and lip biting may occur after denture insertion.",a:"Because of insufficient horizontal overlap (reduced overjet) between posterior teeth, teeth set too far lingually/buccally, a worn/low occlusal plane, or reduced buccal/labial muscle tone. It is corrected by increasing the horizontal overlap (rounding/reducing buccal cusps)."},
-       {q:"Q5 — Phonetics play an important role in recording jaw relation.",a:"Because speech sounds check both vertical and horizontal jaw relations: the 'S' (closest-speaking) position checks freeway space/VDO; F/V (labiodental) checks incisal-edge position; M is used to find the rest position. Adequate but not excessive freeway space is confirmed by clear, click-free speech."},
-       {q:"Q6 — Clinical remounting is preferred over intra-oral adjustment of occlusal errors at insertion.",a:"Because remounting on the articulator (with a new interocclusal record) removes the masking effect of tissue resiliency and mandibular shifting, lets you see and mark errors clearly, gives more accurate selective grinding, protects soft tissues, and saves chair time."}
-     ]},
-    {sec:"Section 3 — Short essay",
-     items:[
-       {q:"Q1 — Six sequelae of combination syndrome and methods to prevent them:",a:"Sequelae: (1) Resorption of the anterior maxillary ridge. (2) Overgrowth (hyperplasia) of the maxillary tuberosities. (3) Papillary hyperplasia of the hard palate. (4) Extrusion/over-eruption of the lower anterior natural teeth. (5) Resorption of the posterior mandibular ridge under the partial denture bases. (6) Loss of posterior occlusal vertical dimension / occlusal plane discrepancy.\nPrevention: balanced occlusion with load directed posteriorly; retain/restore posterior support (RPD with good posterior occlusal contact, or implants); regular recall, relines and occlusal correction; consider implant-supported overdenture in the maxilla or implant support posteriorly in the mandible; avoid leaving only lower anterior natural teeth opposing a complete upper denture; maintain the occlusal plane and VDO."},
-       {q:"Q2 — Four methods of occlusal adjustment before constructing a maxillary single denture:",a:"(1) Selective grinding/equilibration of the opposing natural teeth to correct the curve of occlusion and remove interferences. (2) Restoration of malposed/extruded teeth (onlays, crowns) to level the occlusal plane. (3) Minor orthodontic correction/intrusion of over-erupted teeth. (4) Surgical/endodontic reduction (e.g., reduce a grossly extruded tooth, devitalize if needed) to establish an acceptable occlusal plane. The aim is a harmonious plane so the single denture can be set with balanced contacts."},
-       {q:"Q3 — Five advantages of tooth-supported overdentures:",a:"(1) Preservation of alveolar bone around the retained roots. (2) Preservation of periodontal proprioception → better neuromuscular control, masticatory efficiency and tactile sensitivity. (3) Improved support, stability and retention (especially with attachments). (4) Maintained vertical dimension and improved psychological acceptance (patient keeps some 'natural teeth'). (5) Reversible/convertible and allows distribution of load between teeth and ridge, reducing leverage on the ridge."}
-     ]}
-  ]
+ "title": "Prosthodontics Final — 26 May 2024",
+ "note": "MCQ answers and model written answers below are reasoned from standard complete-denture prosthodontics. Treat the MCQ key as a strong study guide, but verify against your lecture notes.",
+ "mcqs": [
+  {
+   "q": "The use of silicone based soft liner in the management of a patient with a single maxillary complete denture:",
+   "o": [
+    "The material should be changed every 3–4 days due to leach out of plasticizers",
+    "It adheres chemically to the acrylic denture",
+    "It shows less porosity than acrylic resin",
+    "It needs adhesive to bind to the acrylic denture"
+   ],
+   "a": 3,
+   "e": "Silicone soft liners are not chemically bonded to acrylic and require a bonding adhesive. (Plasticizer leaching applies to acrylic-based tissue conditioners.)"
+  },
+  {
+   "q": "Subtractive manufacturing involves:",
+   "o": [
+    "Milling of preformed blanks",
+    "Digital light processing",
+    "Direct laser polymerization of layered liquid resins",
+    "Material jetting"
+   ],
+   "a": 0,
+   "e": "Subtractive = milling away material from a preformed (prepolymerized) blank. The others are additive."
+  },
+  {
+   "q": "Which is the phonetic guideline for checking proper position of anterior teeth:",
+   "o": [
+    "Bilabial sounds",
+    "Labiolingual sounds",
+    "Labiodental sounds",
+    "Dentomaxillary sounds"
+   ],
+   "a": 2,
+   "e": "Labiodental sounds (F, V) check incisal edge position of upper anteriors against the lower lip."
+  },
+  {
+   "q": "Localized tissue irritation can be caused by:",
+   "o": [
+    "Bruxism",
+    "Xerostomia",
+    "Retained bony spicule",
+    "Bad oral hygiene"
+   ],
+   "a": 2,
+   "e": "A retained sharp bony spicule produces a focal, localized sore spot; the others cause generalized problems."
+  },
+  {
+   "q": "Optimum criteria for the denture bearing area:",
+   "o": [
+    "Non-keratinized",
+    "Keratinized",
+    "Partially keratinized",
+    "Specialized mucosa"
+   ],
+   "a": 1,
+   "e": "Keratinized, firmly attached mucosa best withstands masticatory load."
+  },
+  {
+   "q": "Healing period after posterior teeth extraction during immediate denture construction ranges from:",
+   "o": [
+    "6–8 weeks",
+    "1.5–2 months",
+    "3–6 months",
+    "6–12 months",
+    "After 1 year at least"
+   ],
+   "a": 0,
+   "e": "Posterior sockets are allowed ~6–8 weeks to heal before the anterior extraction/insertion appointment."
+  },
+  {
+   "q": "Fibrous hyperplasia occurring around the border of a denture is called:",
+   "o": [
+    "Epulis fissuratum",
+    "Denture stomatitis",
+    "Denture fibrosis",
+    "Allergic stomatitis"
+   ],
+   "a": 0,
+   "e": "Epulis fissuratum = hyperplastic folds at an overextended denture flange border."
+  },
+  {
+   "q": "What should be done when a wrong vertical dimension is detected during the try-in stage?",
+   "o": [
+    "All anterior teeth should be removed",
+    "All posterior teeth should be removed",
+    "All lower teeth should be removed",
+    "No teeth should be removed"
+   ],
+   "a": 1,
+   "e": "To change a wrong VD at try-in the posterior teeth are removed, occlusion rims are re-attached and the jaw relation is re-recorded at the correct VD (the anterior teeth are usually kept for esthetic reference). Only a tiny error might be managed without removal."
+  },
+  {
+   "q": "Concepts of occlusion are categorized as balanced and non-balanced according to:",
+   "o": [
+    "Presence/absence of occlusal contact in centric relation",
+    "Presence/absence of anterior teeth contact in centric position",
+    "Presence/absence of occlusal contact during eccentric movements",
+    "Inclination of condylar and incisal guidance"
+   ],
+   "a": 2,
+   "e": "Balanced occlusion is defined by simultaneous bilateral contacts during eccentric (excursive) movements."
+  },
+  {
+   "q": "Clinically, the posterior vibrating line represents:",
+   "o": [
+    "Hard palate and soft palate junction",
+    "Junction of slight and marked movement of the soft palate",
+    "Most marked movement of the soft palate",
+    "Cupid's-bow shaped line"
+   ],
+   "a": 1,
+   "e": "The posterior vibrating line lies at the junction between the slightly-moving and markedly-moving portions of the soft palate. (Anterior vibrating line ≈ hard/soft palate junction.)"
+  },
+  {
+   "q": "Overeruption of natural mandibular anterior teeth opposing an upper complete denture will cause:",
+   "o": [
+    "Combination syndrome",
+    "Flat maxillary ridge",
+    "Decreased forces on the anterior maxilla",
+    "Increased stability of the lower denture"
+   ],
+   "a": 0,
+   "e": "This anterior natural-vs-denture relationship is the classic trigger of combination syndrome."
+  },
+  {
+   "q": "How to improve the tearing strength of alginate impression material?",
+   "o": [
+    "Increase water to give a thick mix",
+    "Select a tray that gives sufficient bulk of material",
+    "Store the impression in humid atmosphere",
+    "Immediate pouring of the impression"
+   ],
+   "a": 1,
+   "e": "Adequate bulk (3–4 mm) from a properly spaced tray resists tearing; thin sections tear."
+  },
+  {
+   "q": "Which is true concerning postural rest position?",
+   "o": [
+    "Is a border position",
+    "Is a precise position",
+    "Is influenced by head position",
+    "Is recorded by saying the letter F"
+   ],
+   "a": 2,
+   "e": "Postural (physiologic) rest is a learned, variable position influenced by head posture."
+  },
+  {
+   "q": "The side towards which the mandible moves is called:",
+   "o": [
+    "Balancing side",
+    "Working side",
+    "Protrusive side",
+    "Eccentric side"
+   ],
+   "a": 1,
+   "e": "The side toward which the mandible moves is the working (laterotrusive) side."
+  },
+  {
+   "q": "Occlusion blocks are added to the special tray used in:",
+   "o": [
+    "Double impression technique",
+    "Mucostatic impression technique",
+    "Mucocompressive impression technique",
+    "Selective impression technique"
+   ],
+   "a": 2,
+   "e": "Closed-mouth/mucocompressive (functional) impressions use occlusion rims on the special tray so the patient applies functional load."
+  },
+  {
+   "q": "Which is a method for recording vertical dimension of occlusion directly?",
+   "o": [
+    "Patient tactile sensation",
+    "Swallowing activity",
+    "Previously mounted casts",
+    "Facial expression and esthetics"
+   ],
+   "a": 2,
+   "e": "Pre-extraction (previously mounted) records give a direct, measurable VDO; the others are indirect/physiologic."
+  },
+  {
+   "q": "Which can be considered a contraindication for the graphic tracing method?",
+   "o": [
+    "Limited inter-arch space",
+    "Microglossia",
+    "Female patients",
+    "Young patients"
+   ],
+   "a": 0,
+   "e": "Limited inter-arch space leaves no room for the central-bearing tracing device."
+  },
+  {
+   "q": "Which attachment allows easy denture insertion and removal?",
+   "o": [
+    "Bar attachment",
+    "Ball attachment",
+    "Magnet",
+    "Locator"
+   ],
+   "a": 2,
+   "e": "Magnetic attachments have no mechanical undercut to overcome, giving the easiest insertion/removal (at the cost of retention)."
+  },
+  {
+   "q": "Occlusal pivots are done at the occlusal surface of:",
+   "o": [
+    "Lower second premolar and first molar",
+    "Lower premolars",
+    "Lower second molars",
+    "All lower posterior teeth"
+   ],
+   "a": 2,
+   "e": "Pivots are placed over the lower second molars (most posterior) to aid denture seating."
+  },
+  {
+   "q": "Distobuccal flange of the mandibular impression is influenced by:",
+   "o": [
+    "Masseter muscle",
+    "Pterygomandibular raphe",
+    "Buccal shelf area",
+    "Ascending ramus"
+   ],
+   "a": 0,
+   "e": "The masseter (via the buccinator at the masseteric notch) shapes the distobuccal flange."
+  },
+  {
+   "q": "The available bone length at the implant site is defined as:",
+   "o": [
+    "Crest of the ridge to the opposing landmark",
+    "Mesiodistal dimension of available bone",
+    "Bucco-lingual dimension of available bone",
+    "Crest of the ridge to the occlusal plane"
+   ],
+   "a": 0,
+   "e": "Shown as A = bone HEIGHT (crest to opposing landmark). ⚠ Terminology note: in Misch's classification \"available bone LENGTH\" is the MESIODISTAL dimension (option B). Check which definition your course uses — if it follows Misch, the answer is B."
+  },
+  {
+   "q": "Retentive qualities of the posterior palatal seal are checked by applying a displacing force:",
+   "o": [
+    "Forward and upward on anterior teeth",
+    "Downward on anterior teeth",
+    "Lateral on posterior teeth",
+    "Downward on posterior teeth"
+   ],
+   "a": 1,
+   "e": "Pressing down on the anterior teeth tests whether the posterior seal holds the denture up."
+  },
+  {
+   "q": "Constructing dentures for patients with a large tongue — the setting problem is managed by:",
+   "o": [
+    "Setting anterior teeth slightly lingual",
+    "High occlusal plane",
+    "Narrow posterior teeth bucco-lingually",
+    "Grinding the lower buccal cusps"
+   ],
+   "a": 2,
+   "e": "Narrowing posterior teeth bucco-lingually creates tongue space and reduces interference."
+  },
+  {
+   "q": "'Long centric' is an occlusal design that provides:",
+   "o": [
+    "Freedom of occlusion in centric position",
+    "Freedom from centric to any eccentric position",
+    "Freedom of occlusion in lateral movement",
+    "Freedom of occlusion in protrusive movement"
+   ],
+   "a": 0,
+   "e": "Long centric = a small anteroposterior freedom of contact around centric."
+  },
+  {
+   "q": "When the lower denture border is overextended in the posterior region, the patient commonly complains of:",
+   "o": [
+    "Improper retention",
+    "Difficulty in swallowing",
+    "Difficulty in speech",
+    "Excess salivation"
+   ],
+   "a": 1,
+   "e": "Posterior (retromylohyoid/distolingual) overextension impinges the throat, causing difficulty swallowing / sore throat."
+  },
+  {
+   "q": "Which muscle relates to distal extension of the impression in the retromylohyoid fossa?",
+   "o": [
+    "Masseter muscle",
+    "Lateral pterygoid muscle",
+    "Superior constrictor muscle",
+    "Mylohyoid muscle"
+   ],
+   "a": 2,
+   "e": "The superior constrictor limits the distolingual/retromylohyoid extension."
+  },
+  {
+   "q": "Which is part of the prosthetic management of a patient with a flat ridge?",
+   "o": [
+    "Setting teeth buccal to the crest",
+    "Making an impression using selective pressure technique",
+    "Vestibuloplasty for better flange extension",
+    "Use of porcelain teeth"
+   ],
+   "a": 1,
+   "e": "A controlled (selective/minimal) pressure impression is used; vestibuloplasty is surgical (pre-prosthetic), not prosthetic. (Verify — flat ridges often favor a mucostatic/minimal-pressure technique.)"
+  },
+  {
+   "q": "Which letter's pronunciation is affected by a change in the palatal contour of the maxillary denture?",
+   "o": [
+    "S",
+    "F",
+    "M",
+    "V"
+   ],
+   "a": 0,
+   "e": "'S' (sibilant) sounds depend on the anterior palatal contour and tongue–palate space."
+  },
+  {
+   "q": "Hyperplastic tissue over the hard palate is known as:",
+   "o": [
+    "Epulis fissuratum",
+    "Fordyce granules",
+    "Flabby ridge",
+    "Papillary hyperplasia"
+   ],
+   "a": 3,
+   "e": "Inflammatory papillary hyperplasia is the palatal cobblestone overgrowth seen under ill-fitting dentures."
+  },
+  {
+   "q": "Patients accepting their oral situation are:",
+   "o": [
+    "Philosophic",
+    "Exacting",
+    "Indifferent",
+    "Skeptical"
+   ],
+   "a": 0,
+   "e": "Philosophic patients are rational and accept their situation — the best prognosis (House classification)."
+  },
+  {
+   "q": "A new denture wearer suffering from lisping — what can be adjusted?",
+   "o": [
+    "Set anterior teeth more palatally",
+    "Set anterior teeth over the crest",
+    "Reduce thickness of the denture at the palatal portion",
+    "Increase thickness of the denture at the palatal portion"
+   ],
+   "a": 3,
+   "e": "Lisping (an /s/ that turns slushy or like /sh/) means the anterior air-channel between tongue and palate is too WIDE — usually from too-thin palatal acrylic. Building up / thickening the palatal portion narrows the channel and corrects it. (Thinning the palate is the fix for a WHISTLE, not a lisp.)"
+  },
+  {
+   "q": "Records accepted by a semi-adjustable articulator:",
+   "o": [
+    "Centric occluding relation only",
+    "Centric + protrusive",
+    "Centric + protrusive + lateral",
+    "Face-bow record only"
+   ],
+   "a": 2,
+   "e": "Semi-adjustable articulators accept centric, protrusive and lateral (plus face-bow) records."
+  },
+  {
+   "q": "Which attachment provides better stress distribution?",
+   "o": [
+    "Bar attachment",
+    "Ball attachment",
+    "Magnet",
+    "Locator"
+   ],
+   "a": 0,
+   "e": "A bar splints the abutments and distributes stress better than individual stud/ball/magnet units."
+  },
+  {
+   "q": "Device used to measure the distance between the pupil and the rima oris as a VD guideline:",
+   "o": [
+    "Hanau",
+    "Willis",
+    "Winkler",
+    "Balkwell"
+   ],
+   "a": 1,
+   "e": "The Willis gauge measures pupil-to-rima-oris (and subnasion-to-menton)."
+  },
+  {
+   "q": "Best option for management of a unilateral posterior undercut in an old patient:",
+   "o": [
+    "Surgery",
+    "Use a path of insertion",
+    "Use soft liners with short distobuccal flange",
+    "Block out the undercut"
+   ],
+   "a": 1,
+   "e": "In the elderly, avoid surgery; a planned path of insertion lets you use one undercut for retention."
+  },
+  {
+   "q": "Hanau's formula is:",
+   "o": [
+    "L = H/8 + 12",
+    "L = H/12 + 8",
+    "H = H/8 + 12",
+    "H = L/12 + 8"
+   ],
+   "a": 0,
+   "e": "Lateral condylar guidance L = H/8 + 12 (H = horizontal/protrusive condylar inclination)."
+  },
+  {
+   "q": "Lower complete denture opposing upper natural teeth is acceptable in the case of:",
+   "o": [
+    "Class II jaw relation",
+    "Cleft palate",
+    "Limited denture bearing area",
+    "Lower single denture is always avoided"
+   ],
+   "a": 0,
+   "e": "This least-favorable single-denture combination is least problematic with a Class II (retruded mandible) relation. (Verify — single lower dentures opposing natural teeth are generally discouraged.)"
+  },
+  {
+   "q": "During gothic arch tracing, the apex indicates:",
+   "o": [
+    "Centric occlusion",
+    "Horizontal jaw relation",
+    "Centric relation",
+    "Physiologic rest position"
+   ],
+   "a": 2,
+   "e": "The apex of the arrow-point (gothic arch) tracing marks the most retruded position = centric relation."
+  },
+  {
+   "q": "Main function of border molding:",
+   "o": [
+    "To trim the muscle",
+    "To shape the polished surface of the denture",
+    "To exercise muscles for better function",
+    "To shape the tray borders to record the sulcus contour"
+   ],
+   "a": 3,
+   "e": "Border molding shapes the tray periphery to the functional depth/width of the sulcus for a peripheral seal."
+  },
+  {
+   "q": "Common finding for a complete-denture wearer with a V-shaped palatal vault:",
+   "o": [
+    "Decreased denture stability",
+    "Decreased denture retention",
+    "Increased denture retention",
+    "Increased posterior palatal seal area"
+   ],
+   "a": 1,
+   "e": "A V-shaped (high narrow) vault gives a poor peripheral seal → decreased retention."
+  },
+  {
+   "q": "Clinical feature associated with skeletal Class III:",
+   "o": [
+    "Gentle mentolabial sulcus curvature",
+    "Prominent lower lip",
+    "Straight mentolabial sulcus",
+    "Increased range of mandibular movement"
+   ],
+   "a": 1,
+   "e": "Class III (prognathic) shows a prominent lower lip/chin."
+  },
+  {
+   "q": "In which technique is the special tray constructed over a spacer?",
+   "o": [
+    "Mucocompressive",
+    "Mucostatic",
+    "Selective pressure",
+    "Butterfly"
+   ],
+   "a": 1,
+   "e": "A spacer creates relief for an even thin wash → minimal-pressure (mucostatic) recording. (Selective pressure also uses selective relief; mucostatic uses uniform spacer.)"
+  },
+  {
+   "q": "Which soft palate type is usually associated with a V-shaped palatal vault?",
+   "o": [
+    "Class I",
+    "Class II",
+    "Class III",
+    "Class IV"
+   ],
+   "a": 2,
+   "e": "A steep (V-shaped) vault is associated with a Class III soft palate (sharp, abrupt drop) → narrow seal."
+  },
+  {
+   "q": "In a diabetic patient we can expect:",
+   "o": [
+    "Decrease in salivary flow",
+    "Increased denture retention",
+    "Increased salivary flow",
+    "Decreased rate of bone resorption"
+   ],
+   "a": 0,
+   "e": "Diabetics tend to have reduced/altered salivary flow (xerostomia) and delayed healing."
+  },
+  {
+   "q": "In management of a patient with a flat lower ridge:",
+   "o": [
+    "Use of acrylic teeth is recommended",
+    "Use of anatomical teeth is recommended",
+    "Lower occlusal plane kept as far as possible from the ridge",
+    "Use of intra-oral tracers is recommended"
+   ],
+   "a": 0,
+   "e": "Flat ridges favor non-anatomic (cuspless) acrylic teeth, a low occlusal plane, and avoid intra-oral tracers."
+  },
+  {
+   "q": "A disadvantage of using a non-adjustable articulator:",
+   "o": [
+    "Time consuming to transfer records",
+    "Extra cost",
+    "Reproduces only one contact position",
+    "Limited time to adjust restoration intraorally"
+   ],
+   "a": 2,
+   "e": "A simple-hinge (non-adjustable) instrument reproduces only one position → more intra-oral adjustment is needed."
+  },
+  {
+   "q": "Which could cause impression distortion?",
+   "o": [
+    "Registration of inflamed tissue",
+    "Tray border 3–4 mm shorter than the vestibule",
+    "Impression stored in damp paper towel",
+    "Modification of the tray"
+   ],
+   "a": 0,
+   "e": "Recording compressed/inflamed tissue distorts the functional form of the impression."
+  },
+  {
+   "q": "According to design, root-form implants are either:",
+   "o": [
+    "Cylinder or screw shaped",
+    "Conventional, medi, mini",
+    "Metallic or non-metallic",
+    "One-stage or two-stage surgical"
+   ],
+   "a": 0,
+   "e": "Root-form implants are classified by design as cylinder (press-fit) or screw (threaded)."
+  },
+  {
+   "q": "Which is correct about complete dentures of patients with increased inter-arch distance?",
+   "o": [
+    "Have decreased stability",
+    "Have increased stability",
+    "Teeth set next to the maxillary ridge",
+    "Decreased leverage action on teeth"
+   ],
+   "a": 0,
+   "e": "A large inter-arch space lengthens the lever arm → decreased stability and more tipping force."
+  },
+  {
+   "q": "The occlusal plane of upper posterior teeth should be parallel to the:",
+   "o": [
+    "Ala-tragus line",
+    "Canthus–tragus line",
+    "Interpupillary line",
+    "Center of the arch"
+   ],
+   "a": 0,
+   "e": "Posterior occlusal plane parallels Camper's (ala–tragus) line; the anterior plane parallels the interpupillary line."
+  },
+  {
+   "q": "A problem related to a retrognathic mandible:",
+   "o": [
+    "Center of the maxillary arch opposes the anterior mandible",
+    "Center of the mandibular arch opposes the anterior maxilla",
+    "Cross bite posteriorly",
+    "Decreased range of antero-posterior mandibular movement"
+   ],
+   "a": 0,
+   "e": "With a retruded (Class II) mandible the lower arch sits posteriorly, so the centre of the maxillary arch comes to oppose a more anterior part of the mandibular arch. (Option B — mandibular centre opposing the anterior maxilla — describes a prognathic/Class III mandible.)"
+  },
+  {
+   "q": "Which record is accepted by ALL articulators?",
+   "o": [
+    "Centric occluding relation record",
+    "Protrusive record",
+    "Face-bow record",
+    "Lateral record"
+   ],
+   "a": 0,
+   "e": "Even the simplest hinge articulator accepts the centric relation record."
+  },
+  {
+   "q": "Selection of occlusal form is affected by:",
+   "o": [
+    "Condition of the ridge and maxillo-mandibular relation",
+    "Tongue side and position",
+    "Arch size and form",
+    "Palatal vault form"
+   ],
+   "a": 0,
+   "e": "Ridge condition + jaw relationship (and condylar guidance) drive cusp-form selection."
+  },
+  {
+   "q": "A contraindication for a tooth-supported overdenture:",
+   "o": [
+    "Mobile few remaining teeth",
+    "Young patients",
+    "Abnormal jaw sizes",
+    "Poor oral hygiene"
+   ],
+   "a": 3,
+   "e": "Overdentures demand excellent plaque control; poor oral hygiene contraindicates them (caries/perio of abutments)."
+  },
+  {
+   "q": "Preferred jaw-relation recording technique for a patient with a flat ridge:",
+   "o": [
+    "Check-bite technique",
+    "Use of extra-oral tracers",
+    "Use of intra-oral tracers",
+    "Use of arrow-point technique"
+   ],
+   "a": 1,
+   "e": "Intra-oral central-bearing tracers are contraindicated on flat ridges; an extra-oral tracer is preferred. (Verify.)"
+  },
+  {
+   "q": "An advantage of the immediate denture:",
+   "o": [
+    "It allows anterior teeth try-in",
+    "Can be done for all patients",
+    "Needs limited occlusal adjustment at delivery",
+    "Patient adapts rapidly to it"
+   ],
+   "a": 3,
+   "e": "Because the patient is never edentulous, muscles/tissues adapt rapidly; anterior try-in is NOT possible."
+  },
+  {
+   "q": "Feature expected in geriatric patients:",
+   "o": [
+    "Decreased inter-arch space",
+    "Mental foramen on the buccal surface of the mandible",
+    "Muscles diminish in bulk",
+    "Retrognathic jaw appearance"
+   ],
+   "a": 2,
+   "e": "Aging brings muscle atrophy (reduced bulk/tonicity); ridge resorption tends to bring the mental foramen toward the crest and a prognathic look."
+  },
+  {
+   "q": "In a fully-adjustable articulator, the LEFT lateral condylar guidance is adjusted by:",
+   "o": [
+    "Left lateral record",
+    "Protrusive record",
+    "Right lateral record",
+    "Hanau's formula"
+   ],
+   "a": 2,
+   "e": "The non-working (left) condyle path is recorded during a RIGHT lateral movement."
+  },
+  {
+   "q": "Disharmony between centric relation and centric occlusion may result from:",
+   "o": [
+    "Use of a permanent denture base",
+    "Use of an easily displaceable registration material",
+    "Minimum closing pressure during recording",
+    "Unstable occlusal blocks"
+   ],
+   "a": 1,
+   "e": "A registration material that displaces under load yields an inaccurate CR record → CR/CO discrepancy."
+  },
+  {
+   "q": "What should be done first to begin a CAD/CAM operation?",
+   "o": [
+    "Import STL of acquired data to the CAM component",
+    "Digitizing of the physical data",
+    "Import the STL/prosthetic design to the CAD software",
+    "Designing the components"
+   ],
+   "a": 1,
+   "e": "The workflow starts with data acquisition — digitization/scanning of the physical situation."
+  },
+  {
+   "q": "Anatomical landmark that helps position the posterior palatal seal:",
+   "o": [
+    "Median palatine raphe",
+    "Fovea palatina",
+    "Incisive papilla",
+    "Retromolar pad"
+   ],
+   "a": 1,
+   "e": "The fovea palatinae lie just posterior to the vibrating line and guide PPS placement."
+  },
+  {
+   "q": "Most accurate, reproducible relationship for recording jaw relations:",
+   "o": [
+    "Physiologic rest position",
+    "Centric occlusion",
+    "Centric relation",
+    "Centric occlusion and centric relation"
+   ],
+   "a": 2,
+   "e": "Centric relation is bone-to-bone, reproducible and used as the reference for edentulous records."
+  },
+  {
+   "q": "A characteristic of bar attachment units:",
+   "o": [
+    "Rigid fixation for the attached prosthesis",
+    "Being tissue borne",
+    "Allowing the prosthesis to transmit force to the ridge",
+    "Permitting rotational movement of the prosthesis"
+   ],
+   "a": 0,
+   "e": "A rigid bar (e.g., Dolder bar—rigid type) splints implants/abutments and fixes the prosthesis."
+  },
+  {
+   "q": "Stock trays for alginate impressions of edentulous patients should be:",
+   "o": [
+    "Made of plastic",
+    "Non-perforated",
+    "With long flanges",
+    "With rounded floors"
+   ],
+   "a": 3,
+   "e": "Edentulous stock trays have rounded floors to fit the ridge form."
+  },
+  {
+   "q": "Balance with non-anatomic teeth can be accomplished by:",
+   "o": [
+    "Arranging molars on a compensating curve",
+    "Balancing ramp distal to the upper second molar",
+    "Balancing ramp distal to the lower second molar",
+    "Increasing condylar guidance steepness"
+   ],
+   "a": 2,
+   "e": "With cuspless teeth, a balancing ramp placed distal to the lower second molar provides eccentric balance."
+  },
+  {
+   "q": "Min interarch space with weak premolar abutments — recommended overdenture abutment:",
+   "o": [
+    "Dome-shaped abutment with amalgam plug",
+    "Vital abutment with simple reduction",
+    "Endodontically treated abutment with bar attachment",
+    "Dome-shaped abutment with stud attachment"
+   ],
+   "a": 0,
+   "e": "Minimal space → no room for an attachment, so a short non-coping dome with amalgam restoration is used."
+  },
+  {
+   "q": "Aim of an ideal complete-denture occlusal scheme:",
+   "o": [
+    "Optimizing denture support",
+    "Improving denture retention",
+    "Controlling functional stresses & promoting stability",
+    "Duplicating natural-teeth occlusion"
+   ],
+   "a": 2,
+   "e": "The occlusal scheme's goal is to control/distribute functional stress and preserve stability."
+  },
+  {
+   "q": "Sequence of steps for conventional immediate denture construction:",
+   "o": [
+    "Diagnosis, impression, extraction of posterior teeth, jaw relation",
+    "Diagnosis, extraction of posterior teeth, impression, jaw relation",
+    "Diagnosis, impression, jaw relation, extraction of posterior teeth",
+    "Diagnosis, extraction of all teeth, impression, jaw relation"
+   ],
+   "a": 1,
+   "e": "Posteriors are extracted and healed first, THEN impression and jaw relation, with anteriors removed at insertion."
+  },
+  {
+   "q": "Characteristic of a transitional immediate complete denture:",
+   "o": [
+    "Inserted immediately following complete clearance",
+    "Temporary, replaced after healing is complete",
+    "A temporary partial denture to which artificial teeth are added",
+    "Placed after extraction of the remaining six anterior teeth"
+   ],
+   "a": 2,
+   "e": "A transitional immediate denture begins as a partial denture, with teeth added as remaining teeth are lost."
+  },
+  {
+   "q": "A patient with a mandibular single edentulous ridge will usually suffer from:",
+   "o": [
+    "Increased vertical dimension",
+    "Broken lower denture",
+    "Unfavorable lower denture",
+    "Excessive lip support"
+   ],
+   "a": 2,
+   "e": "A lower single CD opposing natural upper teeth is the least favorable / least stable situation."
+  },
+  {
+   "q": "Which technique uses impression plaster as the impression material?",
+   "o": [
+    "Mucocompressive technique",
+    "Mucostatic technique",
+    "Selective pressure technique",
+    "High pressure impression technique"
+   ],
+   "a": 1,
+   "e": "Impression plaster is a rigid, non-displacing material → mucostatic (minimal pressure) technique."
+  },
+  {
+   "q": "Best radiographic method for evaluating available bone for implant planning:",
+   "o": [
+    "Periapical radiograph",
+    "Panoramic radiograph",
+    "CBCT",
+    "Occlusal radiograph"
+   ],
+   "a": 2,
+   "e": "CBCT gives 3-D bone height/width with minimal distortion — the standard for implant planning."
+  },
+  {
+   "q": "Cause of clicking during functional movement in a new complete-denture wearer:",
+   "o": [
+    "Displacement of the mandibular denture",
+    "Insufficient inter-occlusal distance",
+    "Too much retention in the maxillary denture",
+    "Rebasing the old denture"
+   ],
+   "a": 1,
+   "e": "Too little freeway space (high VDO) makes the teeth click together during speech/function."
+  },
+  {
+   "q": "Cast metal denture base is indicated in patients having:",
+   "o": [
+    "Flat palatal vault",
+    "V-shaped palatal vault",
+    "Knife-edged ridge",
+    "Retrognathic ridge relationship"
+   ],
+   "a": 0,
+   "e": "A thin cast-metal base improves retention/strength and adds tissue contact area for a flat vault."
+  }
+ ],
+ "written": [
+  {
+   "sec": "Section 1 — Problem solving",
+   "intro": "Completely edentulous patient; maxillary denture unstable; same denture 10 years without maintenance; localized flabby tissue in the maxillary arch.",
+   "items": [
+    {
+     "q": "Q1.1 — Causes of the localized flabby tissue:",
+     "a": "• Long-term unserviced denture causing chronic trauma. • Excessive/unbalanced occlusal load concentrated on the anterior maxilla. • Combination syndrome pattern (natural lower anteriors opposing an upper CD → anterior maxillary resorption + flabby tissue). • Continuous ridge resorption under an ill-fitting base. • Poorly controlled systemic factors (e.g., diabetes) accelerating bone loss and replacement by fibrous tissue."
+    },
+    {
+     "q": "Q1.2 — Options for tissue recovery before a new denture:",
+     "a": "• Rest the tissues — leave the denture out (24–72 h) where feasible. • Tissue conditioning with a soft liner, replaced every few days. • Correct/adjust the old denture (relieve overload, reduce VDO if excessive). • Improve plaque control and treat any denture stomatitis. • Surgical excision of the flabby tissue only if it is large and non-recoverable."
+    },
+    {
+     "q": "Q1.3 — Impression technique when flabby tissue persists:",
+     "a": "Use a minimal-pressure (mucostatic) technique that records the flabby tissue undisplaced while still seating the denture on the firm tissue. A common method is the 'window' (selective/double) technique: a special tray relieved over the flabby area; record the firm tissue with a normal wash, then capture the flabby area through a window using a free-flowing material (e.g., plaster or light-body) without compression. Goal: even, minimal load so the flabby tissue is not displaced and the denture stays stable."
+    },
+    {
+     "q": "Q1.4 — Recommended method for recording centric relation:",
+     "a": "Use a pressure-free graphic method — extra-oral or intra-oral central-bearing (gothic-arch / arrow-point) tracing with stable bases, because squash-bite/check-bite methods displace the flabby anterior tissue and give an unreliable record."
+    },
+    {
+     "q": "Q1.5 — Recommended occlusal form & arrangement of posterior teeth:",
+     "a": "Non-anatomic (cuspless / 0°) posterior teeth set on a flat or shallow plane, arranged to give bilateral balanced occlusion (via a balancing ramp/compensating curve) with the load directed to the firm posterior ridge and reduced/eliminated from the flabby anterior segment. A narrow bucco-lingual occlusal table reduces tipping force."
+    }
+   ]
+  },
+  {
+   "sec": "Section 2 — Give the reason why",
+   "items": [
+    {
+     "q": "Q1 — Occlusal balance has many advantages in CD construction.",
+     "a": "Because simultaneous bilateral contacts in centric and eccentric positions distribute load evenly, prevent tipping/rocking, improve stability and retention during function, reduce trauma to the bearing tissues, and slow ridge resorption."
+    },
+    {
+     "q": "Q2 — A patient suffers from generalized tissue irritation directly after denture insertion.",
+     "a": "Because generalized (as opposed to localized) soreness right after insertion is usually due to an occlusal error / wrong jaw relation or excessive VDO, an over-pressured impression, or processing errors causing uniform overload — or an acrylic (monomer) reaction. A localized sore spot, by contrast, points to a focal cause (bony spicule, frenum, overextension)."
+    },
+    {
+     "q": "Q3 — A Class I soft palate classification indicates a favorable denture prognosis.",
+     "a": "Because a Class I soft palate runs nearly horizontal with a gentle, gradual turn, giving a broad band of movable–immovable tissue → a wide posterior palatal seal area, better seal and retention. (Class III/V-shaped vault gives a narrow seal and poor retention.)"
+    },
+    {
+     "q": "Q4 — Cheek and lip biting may occur after denture insertion.",
+     "a": "Because of insufficient horizontal overlap (reduced overjet) between posterior teeth, teeth set too far lingually/buccally, a worn/low occlusal plane, or reduced buccal/labial muscle tone. It is corrected by increasing the horizontal overlap (rounding/reducing buccal cusps)."
+    },
+    {
+     "q": "Q5 — Phonetics play an important role in recording jaw relation.",
+     "a": "Because speech sounds check both vertical and horizontal jaw relations: the 'S' (closest-speaking) position checks freeway space/VDO; F/V (labiodental) checks incisal-edge position; M is used to find the rest position. Adequate but not excessive freeway space is confirmed by clear, click-free speech."
+    },
+    {
+     "q": "Q6 — Clinical remounting is preferred over intra-oral adjustment of occlusal errors at insertion.",
+     "a": "Because remounting on the articulator (with a new interocclusal record) removes the masking effect of tissue resiliency and mandibular shifting, lets you see and mark errors clearly, gives more accurate selective grinding, protects soft tissues, and saves chair time."
+    }
+   ]
+  },
+  {
+   "sec": "Section 3 — Short essay",
+   "items": [
+    {
+     "q": "Q1 — Six sequelae of combination syndrome and methods to prevent them:",
+     "a": "Sequelae: (1) Resorption of the anterior maxillary ridge. (2) Overgrowth (hyperplasia) of the maxillary tuberosities. (3) Papillary hyperplasia of the hard palate. (4) Extrusion/over-eruption of the lower anterior natural teeth. (5) Resorption of the posterior mandibular ridge under the partial denture bases. (6) Loss of posterior occlusal vertical dimension / occlusal plane discrepancy.\nPrevention: balanced occlusion with load directed posteriorly; retain/restore posterior support (RPD with good posterior occlusal contact, or implants); regular recall, relines and occlusal correction; consider implant-supported overdenture in the maxilla or implant support posteriorly in the mandible; avoid leaving only lower anterior natural teeth opposing a complete upper denture; maintain the occlusal plane and VDO."
+    },
+    {
+     "q": "Q2 — Four methods of occlusal adjustment before constructing a maxillary single denture:",
+     "a": "(1) Selective grinding/equilibration of the opposing natural teeth to correct the curve of occlusion and remove interferences. (2) Restoration of malposed/extruded teeth (onlays, crowns) to level the occlusal plane. (3) Minor orthodontic correction/intrusion of over-erupted teeth. (4) Surgical/endodontic reduction (e.g., reduce a grossly extruded tooth, devitalize if needed) to establish an acceptable occlusal plane. The aim is a harmonious plane so the single denture can be set with balanced contacts."
+    },
+    {
+     "q": "Q3 — Five advantages of tooth-supported overdentures:",
+     "a": "(1) Preservation of alveolar bone around the retained roots. (2) Preservation of periodontal proprioception → better neuromuscular control, masticatory efficiency and tactile sensitivity. (3) Improved support, stability and retention (especially with attachments). (4) Maintained vertical dimension and improved psychological acceptance (patient keeps some 'natural teeth'). (5) Reversible/convertible and allows distribution of load between teeth and ridge, reducing leverage on the ridge."
+    }
+   ]
+  }
+ ]
 };
