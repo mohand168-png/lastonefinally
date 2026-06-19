@@ -114,6 +114,15 @@
   details.wq > summary .chev{margin-left:auto;color:var(--teal);transition:transform .2s ease;flex:none}
   details.wq[open] > summary .chev{transform:rotate(90deg)}
   details.wq .ans{padding:0 17px 17px;font-size:14.5px;line-height:1.6;white-space:pre-wrap;border-top:1px solid var(--line);padding-top:13px}
+  .ans-grp{margin:0 0 10px}
+  .ans-grp:last-child{margin-bottom:0}
+  .ans-sub{font-weight:700;color:var(--teal-dk);font-size:13px;letter-spacing:.02em;margin:0 0 5px}
+  .ans ul{margin:4px 0 0;padding-left:20px}
+  .ans li{margin:3px 0;line-height:1.55}
+  .topic-h{font-size:20px;margin:30px 0 4px;letter-spacing:-.01em;display:flex;align-items:baseline;gap:10px}
+  .topic-h .tnum{font-family:Inter;font-size:12px;font-weight:700;color:#fff;background:linear-gradient(150deg,var(--teal),var(--teal-dk));border-radius:6px;padding:3px 8px;letter-spacing:.02em}
+  .topic-intro{color:var(--muted);font-size:13.5px;font-style:italic;margin:0 0 8px;border-left:3px solid var(--line);padding-left:12px}
+  .marks{font-family:Inter;font-size:11px;font-weight:700;color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);border-radius:999px;padding:2px 8px;margin-left:auto;flex:none;white-space:nowrap}
 
   .footer{padding:28px 0 60px;color:var(--muted);font-size:12.5px;text-align:center}
   .topbtn{margin:18px 0 8px}
@@ -123,7 +132,7 @@
 <body data-theme="light">
 <header class="bar">
   <div class="bar-in">
-    <button class="brand" onclick="go('home')"><span class="mark">P</span> Prosthesis</button>
+    <button class="brand" onclick="go('home')"><span class="mark">P</span> Prostho Trainer</button>
     <div class="bar-spacer"></div>
     <button class="icon-btn" onclick="toggleTheme()">◐ Theme</button>
   </div>
@@ -156,11 +165,20 @@
         <div class="kicker">Question bank</div>
         <h3>500-MCQ Bank</h3>
         <p class="meta">496 questions transcribed from the scanned bank, each paired with its official answer from the answer key. Some scanned items are reconstructed or flagged — verify wording against your PDF.</p>
-        <span class="pill">● 496 questions</span>
+        <span class="pill">● 496 questions + official answers</span>
+        <div class="go">Open →</div>
+      </button>
+      <button class="card full" onclick="openEssays()">
+        <div class="kicker">Written paper · model answers</div>
+        <h3>Essay Question Bank</h3>
+        <p class="meta">Nine high-yield essay topics — flabby ridge, flat ridge, combination syndrome, single denture, overdentures, occlusion, jaw relations, post-insertion complaints and soft-palate classification — each with a concise model answer.</p>
+        <span class="pill">● 9 topics · 27 model answers</span>
         <div class="go">Open →</div>
       </button>
     </div>
-   
+    <div class="disclaimer">
+      <strong>About the answers.</strong> The 2024 &amp; 2021 keys are worked out from standard complete-denture prosthodontics — a strong study guide, but double-check tricky “except” items against your notes. The 500-bank answers come straight from your official answer sheet; where that sheet was blank or unclear the card says so. A handful of scanned 500 questions weren’t legible and are marked.
+    </div>
   </div>
 </section>
 
@@ -200,6 +218,26 @@
   </div>
 </section>
 
+<!-- ESSAY BANK -->
+<section id="essays" class="view">
+  <div class="subbar">
+    <div class="subbar-in">
+      <button class="icon-btn" onclick="go('home')">← Papers</button>
+      <h2>Essay Question Bank</h2>
+      <div class="bar-spacer"></div>
+      <button class="btn primary" id="expandAllBtn" onclick="toggleExpandAll()">Reveal all answers</button>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="quiz-intro">
+      <h2>Essay Question Bank</h2>
+      <p>Nine essay topics with concise model answers. Tap any question to reveal its answer, or reveal them all at once.</p>
+    </div>
+    <div id="essayBody"></div>
+    <div class="topbtn"><button class="btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Back to top</button></div>
+  </div>
+</section>
+
 <div class="footer wrap">
   Built for personal exam revision · Removable Prosthodontics. The 2024 &amp; 2021 keys are study aids — verify against your course notes.
 </div>
@@ -207,6 +245,7 @@
 <script src="data_2024.js"></script>
 <script src="data_2021.js"></script>
 <script src="data_500.js"></script>
+<script src="data_essays.js"></script>
 <script>
 const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},
   set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
@@ -307,6 +346,42 @@ function renderWritten(){
     sec.items.forEach(it=>{html+='<details class="wq"><summary>'+escapeHtml(it.q)+'<span class="chev">▸</span></summary><div class="ans">'+escapeHtml(it.a)+'</div></details>';});
     w.innerHTML=html;body.appendChild(w);
   });
+}
+
+/* ===== ESSAY BANK ===== */
+function essayAnswerHtml(groups){
+  let h='';
+  groups.forEach(g=>{
+    h+='<div class="ans-grp">';
+    if(g.sub)h+='<div class="ans-sub">'+escapeHtml(g.sub)+'</div>';
+    h+='<ul>';
+    (g.pts||[]).forEach(p=>h+='<li>'+escapeHtml(p)+'</li>');
+    h+='</ul></div>';
+  });
+  return h;
+}
+function openEssays(){renderEssays();document.getElementById('expandAllBtn').textContent='Reveal all answers';go('essays');}
+function renderEssays(){
+  const data=window.QUIZ_ESSAYS;
+  const body=document.getElementById('essayBody');body.innerHTML='';
+  data.topics.forEach((tp,ti)=>{
+    const w=document.createElement('div');w.className='wsec';
+    let html='<h3 class="topic-h"><span class="tnum">'+(ti+1)+'</span>'+escapeHtml(tp.t)+'</h3>';
+    if(tp.intro)html+='<p class="topic-intro">'+escapeHtml(tp.intro)+'</p>';
+    tp.items.forEach(it=>{
+      html+='<details class="wq"><summary>'+escapeHtml(it.q)+
+            (it.marks?'<span class="marks">'+escapeHtml(it.marks)+'</span>':'')+
+            '<span class="chev">▸</span></summary>'+
+            '<div class="ans" style="white-space:normal">'+essayAnswerHtml(it.a)+'</div></details>';
+    });
+    w.innerHTML=html;body.appendChild(w);
+  });
+}
+function toggleExpandAll(){
+  const dets=document.querySelectorAll('#essayBody details.wq');
+  const anyClosed=[...dets].some(d=>!d.open);
+  dets.forEach(d=>d.open=anyClosed);
+  document.getElementById('expandAllBtn').textContent=anyClosed?'Hide all answers':'Reveal all answers';
 }
 </script>
 </body>
